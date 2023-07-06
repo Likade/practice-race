@@ -1,0 +1,62 @@
+.options {
+    max-width: 500px;
+  }
+
+.options__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  }
+
+.options__buttons .options__buttons_race,
+.options__buttons .options__buttons_reset {
+  width: 25%;
+}
+
+.options__buttons .options__buttons_generate {
+  width: 45%;
+}
+  
+.options__wrapper_button {
+  height: 40px;
+  padding: 0 20px;
+  margin-left: 10px;
+}
+  
+.options__wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.create-input input[type="color"]
+.change-input input[type="color"] {
+  width: 20%;
+  height: 40px;
+  background-color: #baedff;
+  border: 0;
+  margin-left: 10px;
+}
+
+.options__wrapper_text {
+  width: 100%;
+  position: relative;
+  margin-right: 5px;
+}
+
+.options__wrapper_text input {
+  display: block;
+  height: 40px;
+  width: 100%;
+  background: #ffffff;
+  padding: 15px;
+  color: rgb(0, 0, 0);
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: text;
+  position: relative;
+  border: 0;
+}
+  

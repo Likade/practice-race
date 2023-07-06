@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #0c7080;
+    background-image: url(src/assets/translucent-image.png);
+    color: #fff;
+    font-family: "DejaVu Sans Mono", monospace;
+    padding: 0 10px;
+    position: relative;
+  }
+  
+  main {
+    margin-top: 20px;
+    padding-bottom: 50px;
+  }
+  
+  button,
+  input {
+    font-family: "DejaVu Sans Mono", monospace;
+  }
+  

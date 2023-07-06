@@ -1,0 +1,45 @@
+.winners__count {
+  margin-bottom: 25px;
+}
+
+.winners__elem_top {
+  background: #00313c !important;
+}
+
+.winners__elem {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: #00394dd1;
+}
+
+.winners__elem > div {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.winners__elem_id {
+  width: 5% !important;
+}
+
+.winners__elem_arrow {
+  width: 15px;
+  margin-left: 5px;
+  filter: invert();
+}
+
+.winners__elem_wins,
+.winners__elem_time {
+  cursor: pointer;
+}
+
+.winners__elem_active img {
+  transform: rotate(180deg);
+}

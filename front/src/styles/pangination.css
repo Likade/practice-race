@@ -1,0 +1,14 @@
+.pangination {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+.pangination__page {
+    position: relative;
+    left: 10px;
+  }
+
+.pangination .pangination__prev {
+    margin: 0 10px;
+  }

@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "scripts": {
+    "build": "npm run build:serv && npm run build:front",
+    "build:front": "cd ./front && npm run dev",
+    "build:serv": "cd ./server && node index.js"
+  }
+}
